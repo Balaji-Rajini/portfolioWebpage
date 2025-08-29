@@ -2,7 +2,7 @@ function TechStack() {
   return (
     <>
       <h1 className="p-10 bg-[#47d3] text-card font-medium  text-4xl flex justify-center">
-        Tech Stacks Known
+        Tech Stacks Known 🖥
       </h1>
       <div className="grid lg:grid-cols-4 md:grid-cols-1  border   rounded-3xl m-2  shadow-2xl justify-center">
         <div className=" border-black  border  w-auto p-10  m-10 rounded-3xl hover:scale-110 duration-300 shadow-2xl">
