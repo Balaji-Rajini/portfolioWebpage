@@ -1,25 +1,29 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Intro from "./Components/intro";
-import Contact from "./Components/Contact";
-import About from "./Components/About";
-import TechStack from "./Components/TechStack";
-
-
-// Example component
+import Intro from "./components/Intro";
+import About from "./components/About";
+import TechStack from "./components/TechStack";
+import Contact from "./components/Contact";
 
 function App() {
-  return (<div className="">
-    <BrowserRouter>
-      <Routes>
-        {/* ✅ Wrap Route inside Routes & use capitalized component */}
-        <Route path="/" element={<><Intro/> , <About/><TechStack/> <Contact/></>} />
-                <Route path="/" element={<About/>} />
-        <Route path="/" element={<TechStack/>} />
-
-      </Routes>
-    </BrowserRouter>
+  return (
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Intro />
+                <About />
+                <TechStack />
+                <Contact />
+              </>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
