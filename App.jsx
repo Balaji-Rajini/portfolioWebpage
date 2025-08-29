@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Intro from "./Components/intro";
+import Intro from "./Components/Intro";
 import Contact from "./Components/Contact";
 import About from "./Components/About";
 import TechStack from "./Components/TechStack";
