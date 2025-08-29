@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Intro from "./Components/Intro";
+import Contact from "./Components/Contact";
+import About from "./Components/About";
+import TechStack from "./Components/TechStack";
 
-import Intro from "./components/Intro";
-import Contact from "./components/Contact";
-import About from "./components/About";
-import TechStack from "./components/TechStack";
 
 function App() {
   return (
