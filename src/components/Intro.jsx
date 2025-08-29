@@ -2,7 +2,7 @@ function Intro() {
   return (
     <>
       {" "}
-      <div className="bg-[#47d3ef88] p-10 flex flex-col items-center ">
+      <div className="bg-[#47d3ef88] w-full min--screen bg-sky-300 flex flex-col items-center justify-start p-4">
        
         <div className=" inline-flex  text-3xl font-mono  ">
           <h1 className="text-5xl font-bold   transition duration-300 ease-in-out hover:drop-shadow-lg">
@@ -13,7 +13,7 @@ function Intro() {
 <div className="grid lg:grid-cols-2 sm:grid-cols-1  ">
         <div className=" hover:scale-110 duration-200 overflow-hidden w-60 mt-12 h-80 border rounded-2xl">
           <img
-            src="src\assets\profimgcrop.jpg"
+            src="/profimgcrop.jpg"
             alt="image here"
             className=" object-cover rounded-lg  "
           />

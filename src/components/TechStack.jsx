@@ -1,7 +1,7 @@
 function TechStack() {
   return (
     <>
-      <h1 className="p-10 bg-[#47d3ef88] text-card font-medium  text-4xl flex justify-center">
+      <h1 className="p-10 bg-[#47d3] text-card font-medium  text-4xl flex justify-center">
         Tech Stacks Known
       </h1>
       <div className="grid lg:grid-cols-4 md:grid-cols-1  border   rounded-3xl m-2  shadow-2xl justify-center">
