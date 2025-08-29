@@ -2,7 +2,7 @@ function Intro() {
   return (
     <>
       {" "}
-      <div className="bg-[#47d3ef88] w-full min--screen bg-sky-300 flex flex-col items-center justify-start p-4">
+      <div className="bg-[#e8f9f5] w-full min--screen  flex flex-col items-center justify-start p-4">
        
         <div className=" inline-flex  text-3xl font-mono  ">
           <h1 className="text-5xl font-bold   transition duration-300 ease-in-out hover:drop-shadow-lg">
@@ -19,13 +19,18 @@ function Intro() {
           />
     </div>
     <div>
-          <h1 className="text-4xl  font-bold  mt-20 hover:text-gray-800  transition duration-300 ease-in-out hover:drop-shadow-lg">Balaji R </h1>
+          <h1 className="text-4xl  font-bold  mt-20     transition
+           duration-300 ease-in-out
+            hover:drop-shadow-lg 
+              hover:text-[#22d3ee]
+">Balaji R </h1>
 <br/>
-          <p className="text-xl">
+          <p className="text-xl hover:text-[#22d3ee] ">
             Student | A Full Stack Web Developer | Java Enthusiast | Debug Pro
           </p>
      </div>
       </div>
+
       </div>  
     </>
   );

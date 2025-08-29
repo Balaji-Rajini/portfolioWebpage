@@ -5,5 +5,5 @@
 
 
 body {
-  @apply bg-sky-300;
+    @apply bg-[#ecfeff]
 }
